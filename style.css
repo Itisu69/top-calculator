@@ -65,6 +65,7 @@ body {
     display: flex;
     font-family: 'Scientific Calculator LCD', sans-serif;
     margin-bottom: 0.5rem;
+    justify-content: center;
 }
 
 .calc-functions {
