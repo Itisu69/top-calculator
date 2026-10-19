@@ -12,7 +12,7 @@ body {
 /* header */
 .header {
     display: flex;
-    background-color: rgb(101, 97, 106);
+    background-color: rgb(95, 74, 121);
     margin: 0px;
     margin-bottom: 32px;
     padding: 12px;
@@ -94,7 +94,7 @@ body {
     border-radius: 6px;
     padding: 12px 8px;
     margin-bottom: 0.5rem;
-    letter-spacing: -11px;
+    letter-spacing: -7px;
     font-size: 1.5em;
     min-height: 36px;
     max-width: 254px;
@@ -121,7 +121,20 @@ body {
     background-color: rgb(137, 18, 176);
 }
 
-.calc-functions button,
+.calc button.negat,
+.calc button.decimal {
+    background-color: #6d44af;
+}
+
+.calc button.negat:hover,
+.calc button.decimal:hover {
+    background-color: rgb(137, 18, 176);
+}
+
+.calc-functions button {
+    background-color: #a444ad;
+}
+
 .calc-operators button {
     background-color: #fbb7cc;
 }
