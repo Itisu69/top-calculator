@@ -55,6 +55,7 @@ body {
 
 /* Calculator containers */
 .calc {
+    margin-top: 50px;
     border-radius: 8px;
     background-color: #9f7ed5;
     padding: 8px;
